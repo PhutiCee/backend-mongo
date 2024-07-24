@@ -3,7 +3,7 @@ const ToDoController = require('../controller/todo.controller')
 
 router.post("/createToDo",ToDoController.createToDo);
 
-router.get('/getUserTodoList',ToDoController.getToDoList)
+router.post('/getusertodo',ToDoController.getToDoList)
 
 router.post("/deleteTodo",ToDoController.deleteToDo)
 
